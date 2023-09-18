@@ -1,0 +1,168 @@
+html{
+    font-family: 'Roboto';
+    color: whitesmoke;
+    background-color: black;
+}
+
+.main {
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    
+    border-style: solid;
+    border-radius: 20px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    -webkit-box-shadow: 25px 25px 5px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 25px 25px 5px 0px rgba(255,255,255,1);
+    box-shadow: 25px 25px 5px 0px rgba(255,255,255,1);
+        
+    margin: auto;
+}
+
+.title{
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.input-section{
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.searchIcon{
+    padding-left: 15px;
+}
+
+#textInput, #addBtn{
+    padding: 10px;
+    border: none;
+
+    background-color: black;
+    color: white;
+}
+
+#textInput{
+    border-radius: 20px;
+    width: 250px;
+}
+
+#textInput:focus{
+    outline: none;
+}
+
+#addBtn{
+    border-radius: 0px 20px 20px 0px;
+    transition: 0.8s;
+    font-weight: lighter;
+    cursor: pointer;
+    border-left: solid;
+    padding: 10px;
+    outline: none;
+}
+
+#addBtn:hover{
+    transition: 0.8s;
+    color: black;
+    background-color: white;
+    border-left: solid white;
+}
+
+.author {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 0;
+    float: right;
+    font-size: larger;
+}
+
+ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+#placeholderItem{
+    display: none;
+}
+
+li {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: solid white;
+    border-radius: 20px;
+    margin-bottom: 5px;
+
+    font-weight: bolder;
+}
+
+.btn{
+    padding: 10px;
+    border: solid;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    transition: 0.8s;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+
+    font-weight: lighter;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.done{
+    transition: 0.8s;
+    background-color: white;
+    color: black;
+}
+
+.show{
+    text-align: center;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.show:hover{
+    color: black;
+    background-color: white;
+}
+
+.show button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.hidden{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.rotate {
+    transition: 0.8s;
+    transform: rotate(180deg);
+}
